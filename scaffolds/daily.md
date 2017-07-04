@@ -8,7 +8,7 @@ toc: true
 
 <!--more-->
 
-# {{ title }}
+# 
 
 ## resolved
 
