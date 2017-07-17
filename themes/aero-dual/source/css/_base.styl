@@ -5,8 +5,10 @@ body
   base-font-size(100%)
 
 a
+  &:not(.contract > a)
   color $theme-color
   &:hover
+  
     text-decoration none
     color-revert()
     transition all .25s

@@ -2,11 +2,14 @@
 menu:
   Home: /
   Archives: /archives
-  # change github and email values to your own info
-  Github: https://github.com/nemo1991
-  Email: mailto:tizone.rui@gmail.com
 rss: /atom.xml
 
+# Contract Us
+
+contract:
+ github: https://github.com/nemo1991
+ email: mailto:scott@tizone.org
+ zhihu: https://www.zhihu.com/people/rui-qing-hua/activities
 # Set to false to disable banner
 use_header_cover: true
 
