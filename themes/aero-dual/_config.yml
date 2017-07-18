@@ -1,7 +1,8 @@
 # Header Menu
 menu:
-  Home: /
-  Archives: /archives
+  首页: /
+  归档: /archives
+  标签: /tags
 rss: /atom.xml
 
 # Contract Us

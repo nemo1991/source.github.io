@@ -14,22 +14,19 @@
     <link rel="alternate" href="<%- theme.rss %>" title="<%= config.title %>" type="application/atom+xml">
   <% } %>
   <% if (theme.favicon) { %>
-        <link rel="icon" href="<%- theme.favicon %>">
-        <% } %>
-          <!-- Site Title -->
-          <title>
-            <%- config.title %>
-          </title>
-       <!-- font awesome CSS -->
-            <%- css('font-awesome-4.7.0/css/font-awesome.min.css') %>
-          <!-- Bootstrap CSS -->
-          <%- css('css/bootstrap.min.css') %>
-       
-              <!-- Custom CSS -->
-              <% var targetStyle = 'css/style.' + (config.theme_style || 'light') + '.css' %>
-                <%- css(targetStyle) %>
-
-                  <!-- Google Analytics -->
-                  <%- partial('google-analytics') %>
-                
+    <link rel="icon" href="<%- theme.favicon %>">
+  <% } %>
+  <!-- Site Title -->
+  <title>
+    <%- config.title %>
+  </title>
+  <!-- Bootstrap CSS -->
+  <%- css('css/bootstrap.min.css') %>
+  <!-- font awesome CSS -->
+  <%- css('font-awesome-4.7.0/css/font-awesome.min.css') %>
+  <!-- Custom CSS -->
+  <% var targetStyle = 'css/style.' + (config.theme_style || 'light') + '.css' %>
+  <%- css(targetStyle) %>
+  <!-- Google Analytics -->
+  <%- partial('google-analytics') %>
 </head>

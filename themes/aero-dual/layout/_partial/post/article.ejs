@@ -5,6 +5,19 @@
 <article>
   <div class="container typo">
     <div class="row">
+ 
+       <% if (page.path === "tags/index.html"){ %>
+        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2">
+ <%- tagcloud({
+                  min_font: 16, 
+                  max_font: 35, 
+                  amount: 999, 
+                  color: true, 
+                  start_color: 'gray', 
+                  end_color: 'black',
+              }) %>
+                 </div>
+            <% }else { %>
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <div class="post-info text-muted">
           <% if (config.author) { %>
@@ -32,6 +45,7 @@
           <%- post.content %>
         </div>
       </div>
+      <% } %>
     </div>
   </div>
 </article>
