@@ -1,14 +1,12 @@
 ---
 title: {{ title }}
 tags: ["daily"]
-category: 
+category: 2017
 date: {{ date }}
 toc: true
 ---
 
 <!--more-->
-
-# 
 
 ## resolved
 
