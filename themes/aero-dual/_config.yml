@@ -9,8 +9,8 @@ rss: /atom.xml
 
 contract:
  github: https://github.com/nemo1991
- email: mailto:scott@tizone.org
- zhihu: https://www.zhihu.com/people/rui-qing-hua/activities
+ email: mailto:keepnemo@gmail.com
+ zhihu: https://www.zhihu.com/people/scott.rui
 # Set to false to disable banner
 use_header_cover: true
 
